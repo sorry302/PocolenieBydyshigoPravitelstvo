@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Century Gothic';
+    font-weight: 400;
+    font-style: normal;
+    src:
+        url('.\fonts\centurygothic.ttf') format('tff')
+        url('.\fonts\centurygothic_bold.ttf') format('tff')
+}
+
+*{
+    font-family: 'Century Gothic';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 965px;
+    background-color: rgb(255, 255, 255);
+    border: 4px solid black;
+}
+.background{
+    margin-left:40px;   
+}
+.zagolo{
+   margin-top: 15%;
+   margin-left: 20%;
+   width: 100%;
+   
+}
+
+.textcols {
+	white-space: nowrap;
+}
+.textcols-item {
+	white-space: normal;	
+	display: inline-block;
+	width: 48%;
+	vertical-align: top;
+
+}
+.textcols .textcols-item:first-child {
+	margin-right: 15%;
+}
+
+h2{
+    width: 239px;
+    padding-top: 20px;
+    padding-bottom:40px;
+}
+
+.Reshyme{
+    width:300px;
+    float:left
+}
+
+.kursiv{
+    font-style: italic;
+}
+
+.background2{
+    position: absolute;
+    margin-top: 500px;
+    margin-right: 100px;
+}
+
+

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<body>
+
+    <h1>Расшифровка встречи</h1>
+
+    <div id="transcript">
+        {% for segment in segments %}
+        <div class="segment">
+            <div class="timestamp">[{{ segment.start }} - {{ segment.end }}]</div>
+            <div class="text">{{ segment.text }}</div>
+        </div>
+        {% endfor %}
+    </div>
+
+</body>
+</html>
